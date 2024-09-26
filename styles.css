@@ -1,0 +1,177 @@
+body{
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+}
+
+h2{
+    color: #451c7a;
+    font-size: 1.575rem;
+}
+
+h3{
+    margin-top: 2em;
+    font-size: 1.25rem;
+}
+
+p{
+    line-height: 1.5;
+}
+
+header{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background-color: #5f29a3;
+}
+
+.header-container,
+.container{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.subheading{
+    font-size: 1.15rem;
+    display: block;
+    color: #d0aaff;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav li{
+    border-bottom: 1px dotted #a190b6;
+    list-style: none;
+    padding: 1em;
+}
+
+nav a{
+    text-decoration: none; 
+    color: white;
+    font-size: 1rem;
+}
+
+a:hover, 
+a:active {
+    color: #d4b44c;
+}
+
+.main-image{
+    width: 90%;
+    display: block;
+}
+
+.btn{
+    background-color:#5f29a3;
+    color: white;
+    font-weight: bold;
+    font-size: 1.125rem;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.btn-dark{
+    background-color:#5f29a3;
+}
+
+.btn-light {
+    color: #5f29a3; 
+    background: whitesmoke;
+}
+
+.btn-mid{
+    margin: 1em 0;
+    color: #5f29a3; 
+    background: #f0e0ff; 
+}
+
+.btn:hover, 
+.btn:active {
+    color: #2b238a;
+    background-color: #f3e885;
+}
+
+.crypto-title{
+    color: white;
+}
+
+.section-two-container{
+    padding: 1.125em 0 ;
+    margin: 0 auto;
+    background-color: #5f29a3;
+}
+
+.section-two-container p{
+    color: white;
+}
+
+.feature-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.feature-item{
+    flex: 1 240px;
+}
+
+.feature-image{
+    width: 100%;
+}
+
+footer{
+    margin: 3em 0;
+    text-align: center;
+    color: #5f29a3;
+}
+
+@media(min-width: 768px){
+    header{
+        padding: 1.125em;
+        margin-bottom: 1em;
+    }
+
+    h1{
+        text-align: start;
+    }
+
+    .header-container{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav li{
+        border-bottom: none;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .btn{
+        width: 20%;
+        display: inline-block;
+        margin-right: 2em;
+    }
+    
+}
